@@ -115,11 +115,6 @@ li:hover{
     font-weight: 700;
     padding: 12px;
 }
-
-.pf{
-    font-size: 13px;
-}
-
 /*fim da parte de desempenho*/
 
 /*começo da parte de avaliado*/
@@ -160,3 +155,4 @@ li:hover{
 #avaliado p{
     font-size: 18px;
     padding-bottom: 50px;
+}
