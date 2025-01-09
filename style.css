@@ -123,6 +123,7 @@ li{
     padding: 30px;
     justify-content: center;
     text-align: center;
+    height: 480px;
 }
 
 #selecionou{
@@ -150,5 +151,4 @@ li{
 
 #avaliado p{
     font-size: 18px;
-    padding-bottom: 50px;
 }
