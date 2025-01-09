@@ -25,11 +25,13 @@ let av5 = document.getElementById(`btn5`);
 
 let txt = document.getElementById(`txt`)
 
+//function para adaptaçãodo tipo de cor
 function rgbToHex(rgb) {
     var rgbValues = rgb.match(/\d+/g);
     return "#" + ((1 << 24) + (parseInt(rgbValues[0]) << 16) + (parseInt(rgbValues[1]) << 8) + parseInt(rgbValues[2])).toString(16).slice(1).toUpperCase();
 }
 
+//function pra seleção dos botões
 function selecionei1(){
     if(rgbToHex(av1.style.backgroundColor) === `#252D37`){
         av1.style.backgroundColor = `#FB7413`;
@@ -37,9 +39,7 @@ function selecionei1(){
         av3.style.backgroundColor = `#252D37`;
         av4.style.backgroundColor = `#252D37`;
         av5.style.backgroundColor = `#252D37`;
-        txt.innerText=`Você selecionou 1 de 5`
-    } else if(rgbToHex(av1.style.backgroundColor) === `#FB7413`){
-        av1.style.backgroundColor = `#252D37`;
+        txt.innerText=`Você selecionou 1 de 5`;
     }
 }
 
@@ -50,9 +50,7 @@ function selecionei2(){
         av3.style.backgroundColor = `#252D37`;
         av4.style.backgroundColor = `#252D37`;
         av5.style.backgroundColor = `#252D37`;
-        txt.innerText=`Você selecionou 2 de 5`
-    } else if(rgbToHex(av2.style.backgroundColor) === `#FB7413`){
-        av2.style.backgroundColor = `#252D37`;
+        txt.innerText=`Você selecionou 2 de 5`;
     }
 }
 
@@ -63,9 +61,7 @@ function selecionei3(){
         av2.style.backgroundColor = `#252D37`;
         av4.style.backgroundColor = `#252D37`;
         av5.style.backgroundColor = `#252D37`;
-        txt.innerText=`Você selecionou 3 de 5`
-    } else if(rgbToHex(av3.style.backgroundColor) === `#FB7413`){
-        av3.style.backgroundColor = `#252D37`;
+        txt.innerText=`Você selecionou 3 de 5`;
     }
 }
 
@@ -76,9 +72,7 @@ function selecionei4(){
         av2.style.backgroundColor = `#252D37`;
         av3.style.backgroundColor = `#252D37`;
         av5.style.backgroundColor = `#252D37`;
-        txt.innerText=`Você selecionou 4 de 5`
-    } else if(rgbToHex(av4.style.backgroundColor) === `#FB7413`){
-        av4.style.backgroundColor = `#252D37`;
+        txt.innerText=`Você selecionou 4 de 5`;
     }
 }
 
@@ -89,9 +83,7 @@ function selecionei5(){
         av2.style.backgroundColor = `#252D37`;
         av3.style.backgroundColor = `#252D37`;
         av4.style.backgroundColor = `#252D37`;
-        txt.innerText=`Você selecionou 5 de 5`
-    } else if(rgbToHex(av5.style.backgroundColor) === `#FB7413`){
-        av5.style.backgroundColor = `#252D37`;
+        txt.innerText=`Você selecionou 5 de 5`;
     }
 }
 
